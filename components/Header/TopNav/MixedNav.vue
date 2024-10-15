@@ -23,7 +23,7 @@
         v-text="$t('saas.header_'+item.name)"
       />
     </template>
-    <v-menu
+    <!-- <v-menu
       :open-on-hover="hover"
       :position-x="0"
       max-height="480"
@@ -77,7 +77,7 @@
           </v-row>
         </v-container>
       </div>
-    </v-menu>
+    </v-menu> -->
   </div>
 </template>
 

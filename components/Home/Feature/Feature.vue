@@ -32,18 +32,17 @@
             <div class="desc">
               <title-main :align="isMobile ? 'center' : 'left'">
                 <span>
-                  {{ $t('saas.feature_title1') }}
                   <strong>
-                    {{ $t('saas.feature_titlestrong1') }}
+                    Advanced Digital Solutions Optimizing Performance & Elevating User Satisfaction.
                   </strong>
                 </span>
               </title-main>
               <h6 class="use-text-subtitle2" :class="[isMobile ? 'text-center' : 'text-start']">
-                {{ $t('saas.feature_desc1') }}
+                Our suite of services includes Custom Software Development, Web and Mobile Application Design, UI/UX Design, DevOps, Software Testing, Maintenance, and Continuous Support. We streamline operations, boost productivity, and elevate user experiences through bespoke software solutions
               </h6>
-              <v-btn color="secondary" large class="btn">
+              <!-- <v-btn color="secondary" large class="btn">
                 {{ $t('saas.see_detail') }}
-              </v-btn>
+              </v-btn> -->
             </div>
           </v-col>
         </v-row>
@@ -54,20 +53,19 @@
             <div class="desc">
               <title-main :align="isMobile ? 'center' : 'right'">
                 <span>
-                  {{ $t('saas.feature_title1') }}
                   <strong>
-                    {{ $t('saas.feature_titlestrong2') }}
+                    Innovative and Future-Proof Solutions
                   </strong>
                 </span>
               </title-main>
               <h6 class="use-text-subtitle2" :class="[isMobile ? 'text-center' : 'text-end']">
-                {{ $t('saas.feature_desc2') }}
+                Empowering businesses to excel and scale in the digital era.We revolutionize web solutions with state-of-the-art software products, enabling businesses to thrive in a rapidly evolving market.
               </h6>
-              <div :class="[isMobile ? 'text-center' : 'text-end']">
+              <!-- <div :class="[isMobile ? 'text-center' : 'text-end']">
                 <v-btn color="secondary" large class="btn">
                   {{ $t('saas.see_detail') }}
                 </v-btn>
-              </div>
+              </div> -->
             </div>
           </v-col>
           <v-col md="6" cols="12" class="px-8">
@@ -95,9 +93,8 @@
       <div class="item last">
         <title-main align="center">
           <span>
-            {{ $t('saas.feature_title3') }}
             <strong>
-              {{ $t('saas.feature_titlestrong3') }}
+              Expertise in Advanced Technology Staying at the forefront of tech trends.
             </strong>
           </span>
         </title-main>
@@ -105,7 +102,7 @@
           <v-row class="spacing6" justify="center">
             <v-col md="10" cols="12" class="pa-6">
               <h6 class="text-center use-text-subtitle2">
-                {{ $t('saas.feature_desc3') }}
+                We deliver innovative solutions that drive growth and operational efficiency. Our team is dedicated to adopting the latest technologies, ensuring you benefit from the most advanced software solutions available.
               </h6>
               <div
                 data-aos="fade-up"

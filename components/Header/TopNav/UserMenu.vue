@@ -1,20 +1,20 @@
 <template>
   <nav class="user-menu">
-    <v-btn
+    <!-- <v-btn
       v-if="isDesktop"
       :href="link.saas.login"
       variant="text"
     >
       {{ $t('common.login') }}
-    </v-btn>
-    <v-btn
+    </v-btn> -->
+    <!-- <v-btn
       v-if="isDesktop"
       :href="link.saas.register"
       color="primary"
       variant="flat"
     >
       {{ $t('common.register') }}
-    </v-btn>
+    </v-btn> -->
     <v-spacer
       v-if="isDesktop"
       class="vertical-divider"

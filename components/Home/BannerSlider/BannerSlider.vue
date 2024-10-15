@@ -24,12 +24,12 @@
                   <v-col md="6" cols="12" class="px-6 d-flex align-center">
                     <div class="text">
                       <h4 class="use-text-title2">
-                        {{ $t('saas.banner_title') + ' ' + $t('saas.banner_titlestrong') }}
+                        Delivering Excellence in Every Project.
                       </h4>
                       <h5 class="use-text-subtitle2">
-                        {{ $t('saas.banner_subtitle') }}
+                        We specialize in crafting intuitive and engaging digital products.
                       </h5>
-                      <div class="btn-area">
+                      <!-- <div class="btn-area">
                         <v-btn
                           variant="text"
                           size="large"
@@ -48,7 +48,7 @@
                           {{ $t('saas.getstarted') }}
                           &nbsp;
                         </v-btn>
-                      </div>
+                      </div> -->
                     </div>
                   </v-col>
                   <v-col md="6" cols="12" class="px-6">
@@ -97,12 +97,12 @@
                   <v-col md="6" cols="12" class="px-6 d-flex align-center">
                     <div class="text">
                       <h4 class="use-text-title2">
-                        {{ $t('saas.banner_title') + ' ' + $t('saas.banner_titlestrong') }}
+                        Web & Mobile Solutions.
                       </h4>
                       <h5 class="use-text-subtitle2">
-                        {{ $t('saas.banner_subtitle') }}
+                        We offer comprehensive services in web and mobile app development, software engineering, and quality assurance.
                       </h5>
-                      <div class="btn-area">
+                      <!-- <div class="btn-area">
                         <v-btn
                           variant="text"
                           size="large"
@@ -121,7 +121,7 @@
                           {{ $t('saas.getstarted') }}
                           &nbsp;
                         </v-btn>
-                      </div>
+                      </div> -->
                     </div>
                   </v-col>
                 </v-row>
@@ -137,12 +137,12 @@
                   <v-col cols="12" class="px-sm-12 px-6">
                     <div class="text text-center">
                       <h4 class="use-text-title2">
-                        {{ $t('saas.banner_title') + ' ' + $t('saas.banner_titlestrong') }}
+                        Seamless Integration and Customized Solutions
                       </h4>
                       <h5 class="use-text-subtitle2">
-                        {{ $t('saas.banner_subtitle') }}
+                        Experience the power of technology with our bespoke services.
                       </h5>
-                      <div class="btn-area">
+                      <!-- <div class="btn-area">
                         <v-btn
                           variant="text"
                           size="large"
@@ -161,7 +161,7 @@
                           {{ $t('saas.getstarted') }}
                           &nbsp;
                         </v-btn>
-                      </div>
+                      </div> -->
                     </div>
                   </v-col>
                   <v-col cols="12">
@@ -169,7 +169,7 @@
                       <div class="oval-floor slide3" />
                       <img
                         class="img-2d3d"
-                        :src="imgAPI.saas[7]"
+                        src="/images/saas/banner3_3D.png"
                         :data-2d="imgAPI.saas[6]"
                         :data-3d="imgAPI.saas[7]"
                         alt="banner 3 3D"
@@ -205,8 +205,7 @@
               variant="text"
               @click="gotoSlide(0)"
             >
-              <strong>First Slide</strong>
-              Interdum et malesuada fames ac ante
+              <strong class="p-2">Delivering Excellence</strong>
             </v-btn>
             <v-divider class="divider" vertical inset />
             <v-btn
@@ -214,8 +213,7 @@
               variant="text"
               @click="gotoSlide(1)"
             >
-              <strong>Second Slide</strong>
-              Interdum et malesuada fames ac ante
+              <strong class="p-2">Web and Mobile</strong>
             </v-btn>
             <v-divider class="divider" vertical inset />
             <v-btn
@@ -223,8 +221,7 @@
               variant="text"
               @click="gotoSlide(2)"
             >
-              <strong>Third Slide</strong>
-              Interdum et malesuada fames ac ante
+              <strong class="p-2">Customize Solution</strong>
             </v-btn>
           </nav>
         </v-container>

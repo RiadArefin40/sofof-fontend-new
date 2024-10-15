@@ -10,7 +10,7 @@
 </style>
 
 <script>
-import logo from '@/assets/images/saas-logo.svg';
+import logo from '@/assets/images/sass-logo.jpeg';
 import brand from '@/assets/text/brand';
 
 export default {
