@@ -6,9 +6,9 @@
         <div id="home">
           <banner-slider />
         </div>
-        <section>
+        <!-- <section>
           <company-logo />
-        </section>
+        </section> -->
         <section :class="!isMobile && 'space-top-short'">
           <counter />
         </section>
@@ -18,26 +18,26 @@
         <section id="integration">
           <integration />
         </section>
-        <section id="testimonials" class="space-top-short">
+        <!-- <section id="testimonials" class="space-top-short">
           <testimonials />
-        </section>
-        <section id="call-action">
+        </section> -->
+        <!-- <section id="call-action">
           <call-action home />
-        </section>
-        <section id="blog" class="space-top-short space-bottom-short">
+        </section> -->
+        <!-- <section id="blog" class="space-top-short space-bottom-short">
           <news-event />
-        </section>
+        </section> -->
         <section class="space-top">
           <subscribe-form />
         </section>
       </div>
       <main-footer bg />
-      <hidden point="smDown">
+      <!-- <hidden point="smDown">
         <corner />
       </hidden>
       <hidden point="mdDown">
         <notification />
-      </hidden>
+      </hidden> -->
     </div>
   </div>
 </template>

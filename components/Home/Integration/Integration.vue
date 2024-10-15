@@ -32,11 +32,11 @@
               </figure>
               <title-main align="center">
                 <span>
-                  {{ $t('saas.feature_title1') }}
+                  Innovation at Our Core
                 </span>
               </title-main>
               <h6 class="use-text-subtitle2 text-center">
-                {{ $t('saas.feature_desc1') }}
+                We are not just a software development agency; we are pioneers in technology. Our team brings fresh perspectives and out-of-the-box ideas to every project, ensuring that we deliver state-of-the-art solutions tailored to your unique needs.
               </h6>
             </div>
           </div>
@@ -60,11 +60,11 @@
               </figure>
               <title-main align="center">
                 <span>
-                  {{ $t('saas.feature_title3') }}
+                  Commitment to Excellence
                 </span>
               </title-main>
               <h6 class="use-text-subtitle2 text-center">
-                {{ $t('saas.feature_desc2') }}
+                Our mission is to empower businesses by providing top-tier software solutions that streamline processes and enhance user experiences. We believe in the power of technology to drive growth and efficiency, and we are dedicated to helping you succeed.
               </h6>
             </div>
           </div>
@@ -152,41 +152,41 @@ export default {
       integration1: [
         {
           color: 'primary',
-          icon: 'ion-md-time',
-          title: 'Nam vitae scelerisque lorem',
-          subtitle: 'Quis tempus libero proin varius',
+          icon: 'ion-ios-bulb-outline',
+          title: 'Innovative Creations ',
+          subtitle: 'Unleashing the Future of Technology',
         },
         {
           color: 'accent',
-          icon: 'ion-ios-bulb-outline',
-          title: 'Nam vitae scelerisque lorem',
-          subtitle: 'Quis tempus libero proin varius',
+          icon: 'ion-md-time ',
+          title: 'Full Spectrum Services',
+          subtitle: 'Comprehensive Solutions for Every Need',
         },
         {
           color: 'secondary',
           icon: 'ion-ios-globe',
-          title: 'Nam vitae scelerisque lorem',
-          subtitle: 'Quis tempus libero proin varius',
+          title: 'Tech Trailblazers ',
+          subtitle: 'Leading the Way in Digital Innovation',
         },
       ],
       integration2: [
         {
           color: 'secondary',
           icon: 'ion-ios-flask-outline',
-          title: 'Nam vitae scelerisque lorem',
-          subtitle: 'Quis tempus libero proin varius',
+          title: 'Excellence Unleashed',
+          subtitle: 'Quality Beyond Expectations',
         },
         {
           color: 'primary',
           icon: 'ion-ios-navigate-outline',
-          title: 'Nam vitae scelerisque lorem',
-          subtitle: 'Quis tempus libero proin varius',
+          title: 'Goal-Oriented',
+          subtitle: 'Focused on Your Success',
         },
         {
           color: 'accent',
           icon: 'ion-ios-color-wand',
-          title: 'Nam vitae scelerisque lorem',
-          subtitle: 'Quis tempus libero proin varius',
+          title: 'Streamlined Success',
+          subtitle: 'Making Business Simple',
         },
       ],
     };

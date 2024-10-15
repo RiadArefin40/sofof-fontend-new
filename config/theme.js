@@ -2,22 +2,22 @@
 import colors from 'vuetify/lib/util/colors';
 
 const palette = {
-  violeta: {
-    primary: colors.purple.base, // primary main
-    primarylight: colors.purple.lighten4, // primary light
-    primarydark: colors.purple.darken3, // primary dark
-    secondary: colors.lightGreen.base, // secondary main
-    secondarylight: colors.lightGreen.lighten4, // secondary light
-    secondarydark: colors.lightGreen.darken3, // secondary dark
-    accent: colors.amber.base, // accent main
-    accentlight: colors.amber.lighten4, // accent light
-    accentdark: colors.amber.darken4, // accent dark
-    anchor: colors.purple.base, // link
+  fresh: {
+    primary: colors.lightBlue.base, // primary main
+    primarylight: colors.lightBlue.lighten4, // primary light
+    primarydark: colors.lightBlue.darken4, // primary dark
+    secondary: colors.green.base, // secondary main
+    secondarylight: colors.green.lighten4, // secondary light
+    secondarydark: colors.green.darken4, // secondary dark
+    accent: colors.pink.base, // accent main
+    accentlight: colors.pink.lighten4, // accent light
+    accentdark: colors.pink.darken3, // accent dark
+    anchor: colors.blue.base // link
   },
 };
 
 const theme = {
-  ...palette.violeta,
+  ...palette.fresh,
 };
 
 export default theme;

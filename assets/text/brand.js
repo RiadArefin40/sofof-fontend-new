@@ -1,11 +1,11 @@
 const brand = {
   saas: {
-    name: 'SaaS',
-    desc: 'Awrora SaaS | Vue Landing Page Template',
+    name: 'Sofof Tech',
+    desc: 'Sofof Tech',
     prefix: 'awrora',
-    footerText: 'Awrora Theme 2022',
-    logoText: 'Awrora Theme',
-    projectName: 'SaaS Theme',
+    footerText: 'Sofof Tech 2022',
+    logoText: 'Sofof Theme',
+    projectName: 'Sofof Theme',
     url: 'awrora1.indisains.com/saas',
     img: '/images/saas-logo.png',
   },

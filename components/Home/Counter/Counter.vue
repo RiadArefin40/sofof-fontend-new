@@ -19,14 +19,14 @@
                   <count-up
                     v-if="visible"
                     :start-val="0"
-                    :end-val="12"
+                    :end-val="6"
+                    :options="{ prefix: '+'}"
                   />
-                  &nbsp;{{ $t('saas.counter_month') }}
                 </span>
               </h3>
               <p class="use-text-subtitle">
                 <v-icon>mdi-reply</v-icon>
-                {{ $t('saas.counter_free') }}
+                Partners Companies
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@
                   <count-up
                     v-if="visible"
                     :start-val="0"
-                    :end-val="456"
+                    :end-val="2"
                     :options="{ prefix: '+', suffix: 'M' }"
                   />
                 </span>
@@ -61,14 +61,14 @@
                   <count-up
                     v-if="visible"
                     :start-val="0"
-                    :end-val="180"
-                    :options="{ prefix: '+', suffix: 'K' }"
+                    :end-val="15"
+                    :options="{ prefix: '+' }"
                   />
                 </span>
               </h3>
               <p class="use-text-subtitle">
                 <v-icon>mdi-layers</v-icon>
-                {{ $t('saas.counter_providers') }}
+                Countries Served
               </p>
             </div>
           </div>

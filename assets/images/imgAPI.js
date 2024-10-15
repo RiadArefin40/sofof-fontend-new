@@ -3,14 +3,14 @@
 const img3d = {
   main: [
     '',
-    '/images/saas/banner1_3d@2x.png',
+    '/images/saas/banner1_3D@2x.png',
     '',
-    '/images/saas/banner2_3d@2x.png',
+    '/images/saas/banner2_3D@2x.png',
     '',
     '/images/saas/background_3d@2x.png',
     '',
-    '/images/saas/banner3_3d@2x.png',
-    '/images/saas/banner3_3d@2x.png',
+    '/images/saas/banner3_3d.png',
+    '/images/saas/banner3_3d.png',
     '',
     '/images/saas/feature1_3d@2x.png',
     '',

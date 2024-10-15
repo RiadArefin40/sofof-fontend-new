@@ -35,7 +35,7 @@
           </div>
         </v-list-item>
       </div>
-      <v-divider />
+      <!-- <v-divider />
       <div class="lang-menu">
         <v-list-subheader>{{ $t('common.header_language') }}</v-list-subheader>
         <v-list-item
@@ -63,7 +63,7 @@
             </v-icon>
           </template>
         </v-list-item>
-      </div>
+      </div> -->
     </v-list>
   </v-menu>
 </template>

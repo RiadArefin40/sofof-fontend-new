@@ -192,17 +192,12 @@ export default {
     footers: [
       {
         title: 'company',
-        description: ['Team', 'History', 'Contact us', 'Locations'],
+        description: ['History', 'Contact us', 'Locations'],
         link: ['#', '#', '#', '#'],
       },
       {
         title: 'resources',
-        description: [
-          'Resource',
-          'Resource name',
-          'Another resource',
-          'Final resource',
-        ],
+        description: ['Resource'],
         link: ['#', '#', '#', '#'],
       },
       {

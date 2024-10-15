@@ -141,8 +141,11 @@ $wave-deco-dark: '/images/saas/deco-wave-dark.png';
     margin-bottom: 0;
   }
 }
-
+.p-2{
+  padding: 8px;
+}
 .slider {
+  background-color: transparent;
   .slide {
     @include breakpoints-up('md') {
       height: 840px;
