@@ -18,10 +18,10 @@
                 :class="[isMobile ? 'text-center' : 'text-left']"
                 class="testi-title use-text-title2"
               >
-                {{ $t('saas.testi_title') }}
+                Project We Delivered
                 <br>
                 <strong>
-                  {{ $t('saas.testi_titlestrong') }}
+                  <!-- {{ $t('saas.testi_titlestrong') }} -->
                 </strong>
               </h3>
               <div v-if="loaded" class="carousel">
@@ -37,14 +37,14 @@
                     <div class="item">
                       <div class="inner">
                         <div class="profile">
-                          <v-avatar class="avatar">
-                            <img :src="item.avatar" :alt="item.name">
-                          </v-avatar>
+                          <div >
+                            <img style="width: 120px;"  :src="item.avatar" :alt="item.name">
+                          </div>
                           <h6 class="name">
                             {{ item.name }}
                             <span>
-                              {{ item.title }}
-                            </span>
+                          <a :href="item ? item.title : ''">View Details</a>
+                        </span>
                           </h6>
                         </div>
                         <p class="use-text-paragraph">
@@ -94,79 +94,33 @@
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import Hidden from '../../Hidden';
 import imgAPI from '@/assets/images/imgAPI';
+import TestiCard from '../../Cards/TestiStackCard';
 
 const testiData = [
   {
     text:
-      'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nec ex aliquet, aliquam neque non.',
-    avatar: imgAPI.avatar[10],
-    name: 'John Doe',
-    title: 'Chief Digital Officer',
-    logo: '/images/logos/saas.png',
+      'Own a professional WhatsApp Business account on the ProWhatss platform that can be used by all work teams, including marketing, customer service, sales, and technical support, ensuring that you continue effective communication with all customers without losing any of them!',
+    avatar: "https://prowhats.com/wp-content/uploads/2024/09/cropped-apple-touch-icon-65x58.png",
+    name: 'Prowhats',
+    title: 'https://prowhats.com/',
+    logo: "https://prowhats.com/wp-content/uploads/2024/09/cropped-apple-touch-icon-65x58.png",
   },
   {
     text:
-      'Vestibulum sit amet tortor sit amet libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper aliquet ultrices. Aenean facilisis vitae purus facilisis semper. Nam vitae scelerisque lorem, quis tempus libero.',
-    avatar: imgAPI.avatar[1],
-    name: 'Jean Doe',
-    title: 'Chief Digital Officer',
-    logo: '/images/logos/architect.png',
+      'An electronic platform specialized in delivering water to the mosques of Makkah Al-Mukarramah in an easy and convenient way',
+    avatar: "https://i.ibb.co.com/4JR4tQL/svgviewer-png-output.png",
+    name: 'Qatarat',
+    title: 'https://qataratapp.com/',
+    logo: 'https://i.ibb.co.com/4JR4tQL/svgviewer-png-output.png',
   },
   {
     text:
-      'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    avatar: imgAPI.avatar[2],
-    name: 'Jena Doe',
-    title: 'Graphic Designer',
-    logo: '/images/logos/cloud.png',
-  },
-  {
-    text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
-    avatar: imgAPI.avatar[3],
-    name: 'Jovelin Doe',
-    title: 'Senior Graphic Designer',
-    logo: '/images/logos/starter.png',
-  },
-  {
-    text:
-      'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    avatar: imgAPI.avatar[4],
-    name: 'Jihan Doe',
-    title: 'CEO Software House',
-    logo: '/images/logos/coin.png',
-  },
-  {
-    text:
-      'Vestibulum sit amet tortor sit amet libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper aliquet ultrices. Aenean facilisis vitae purus facilisis semper. Nam vitae scelerisque lorem, quis tempus libero.',
-    avatar: imgAPI.avatar[6],
-    name: 'Jovelin Doe',
-    title: 'Senior Graphic Designer',
-    logo: '/images/logos/fashion.png',
-  },
-  {
-    text:
-      'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    avatar: imgAPI.avatar[7],
-    name: 'John Doe',
-    title: 'Senior Graphic Designer',
-    logo: '/images/logos/mobile.png',
-  },
-  {
-    text:
-      'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nec ex aliquet, aliquam neque non.',
-    avatar: imgAPI.avatar[10],
-    name: 'John Doe',
-    title: 'Chief Digital Officer',
-    logo: '/images/logos/profile.png',
-  },
-  {
-    text:
-      'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    avatar: imgAPI.avatar[1],
-    name: 'Jean Doe',
-    title: 'Chief Digital Officer',
-    logo: '/images/logos/saas.png',
-  },
+      'With the passion of excellence, we began our journey at a dominant institution of information technology and business solutions in 2019.To provide all technical and modern programming work and services, we started with the establishment of accounting technical programmes and site design.Electronic applications through the formation of a dominant marketing team and the creation of marketing plans and electronic advertising campaigns.',
+    avatar: "https://i.ibb.co.com/R4YGrgP/Untitled-design-3.png",
+    name: 'Said',
+    title: 'https://www.said.com.sa/',
+    logo: "https://i.ibb.co.com/R4YGrgP/Untitled-design-3.png" ,
+  }
 ];
 
 export default {
@@ -174,6 +128,7 @@ export default {
     Hidden,
     Splide,
     SplideSlide,
+    // TestiCard
   },
   data() {
     return {

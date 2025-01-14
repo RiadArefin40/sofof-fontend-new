@@ -14,6 +14,7 @@
         @click="scrollToMyEl(item.name)"
         v-text="$t('saas.header_'+item.name)"
       />
+
     </template>
     <template v-if="!singleNav">
       <v-btn
