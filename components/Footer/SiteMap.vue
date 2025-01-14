@@ -192,7 +192,7 @@ export default {
     footers: [
       {
         title: 'company',
-        description: ['History', 'Contact us', 'Locations'],
+        description: ['Located in: EDB Trade Centre , Address: 93 Kazi Nazrul Islam Ave, Dhaka 1215'],
         link: ['#', '#', '#', '#'],
       },
       {

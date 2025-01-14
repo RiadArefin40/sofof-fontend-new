@@ -18,9 +18,9 @@
         <section id="integration">
           <integration />
         </section>
-        <!-- <section id="testimonials" class="space-top-short">
+        <section id="testimonials" class="space-top-short">
           <testimonials />
-        </section> -->
+        </section>
         <!-- <section id="call-action">
           <call-action home />
         </section> -->

@@ -37,7 +37,7 @@
 
 <style scoped lang="scss">
 @import './post-news-card';
-</style>
+</style> 
 
 <script>
 export default {
